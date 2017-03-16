@@ -23,8 +23,7 @@ pbiviz package
 
 4. Następnie przechodzimy na strone https://app.powerbi.com. 
 5. Edytujemy dowolny raport
-6. Włączamy wtyczkę, która się nazywa 
-> Element wizualny dewelopera
+6. Włączamy wtyczkę, która się nazywa ``` Element wizualny dewelopera ```
 
 
 
@@ -46,7 +45,9 @@ pbiviz --install-cert
 ```
 
 
-> Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien być w odpowiednim magazynie
+```
+Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien być w odpowiednim magazynie **Trusted Root Certification Authorities***
+```
 
 ### Konfiguracja
 
