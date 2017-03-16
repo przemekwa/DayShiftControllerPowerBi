@@ -1,20 +1,9 @@
 # DayShiftControllerPowerBi
 
+Jest to kontrolka do PowerBi, która pokazuje raport z obłożenia zmian przez pracowników. Kontrolka powiadamia czy na każdy dzień jest pełna obsługa zmian przez pracowników.Dokładne wytyczne będą jeszcze wypracowywane.
 
-## Spis treści
-
-- [Szybki start](#Szybki-start)
-- [Instalacja](#Instalacja)
-    - [Instalacja CLI](#Instalacja-CLI)
-    - [Konfiguracja](#Konfiguracja]
-    
 ## Szybki start
 
-Jest to kontrolka do PowerBi, która pokazuje raport z obłożenia zmian przez pracowników. 
-
-  1. Kontrolka powiadamia czy na każdy dzień jest pełna obsługa zmian przez pracowników.
-  2. Dokładne wytyczne będą jeszcze wypracowywane.
-  
 Wtyczka jest tworzona w TS. Aby ją uruchomić trzeba przejść proces instlacji i konfiguracji swojego konta w PowerBi
 
 Aby uruchomić a właściwie debugować wtyczkę należy:
@@ -27,10 +16,16 @@ pbiviz new My Visual Name
 ```
 pbiviz start
 ```
-3.	Deploy elementu
+3.	Deploy elementu (opcjonalne)
 ```
 pbiviz package
 ```
+
+4. Następnie przechodzimy na strone https://app.powerbi.com. 
+5. Edytujemy dowolny raport
+6. Włączamy wtyczkę, która się nazywa 
+> Element wizualny dewelopera
+
 
 
 ## Instalacja
@@ -50,9 +45,9 @@ npm install -g powerbi-visuals-tools
 pbiviz --install-cert
 ```
 
-```
-Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien być w odpowiednim magazynie
-```
+
+> Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien być w odpowiednim magazynie
+
 ### Konfiguracja
 
 * Włączenie opcji deweloperskich w PowerBI portal
