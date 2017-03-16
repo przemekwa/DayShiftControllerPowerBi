@@ -1,0 +1,76 @@
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG {
+  /* Month header */
+  /* Month list */
+  /* Previous button inside month header */
+  /* Next button */
+  /* Weekdays (Mon-Sun) */
+  /* Days (1-31) */
+  /* Highlight the "current" day */
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG p em {
+  background: yellow;
+  padding: 5px;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG ul {
+  list-style-type: none;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG body {
+  font-family: Verdana, sans-serif;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .month ul {
+  margin: 0;
+  padding: 0;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .month .prev {
+  float: left;
+  padding-top: 10px;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .month .next {
+  float: right;
+  padding-top: 10px;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+.visual-dayShiftController1CA75DB533334CF2965C7FA70834B73B_DEBUG .days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
