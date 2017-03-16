@@ -6,7 +6,7 @@
 - [Szybki start](#Szybki-start)
 - [Instalacja](#Instalacja)
     - [Instalacja CLI](#Instalacja-CLI)
-    - [Konfiguracja](#konfiguracja]
+    - [Konfiguracja](#Konfiguracja]
     
 ## Szybki start
 
@@ -37,7 +37,6 @@ pbiviz package
 
 Wszystkie potrzebne informację można znaleść na stronie https://github.com/microsoft/powerbi-visuals. 
 
-
 ### Instalacja CLI
 
 1. Instlacja Node.js
@@ -54,7 +53,6 @@ pbiviz --install-cert
 ```
 Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien być w odpowiednim magazynie
 ```
-
 ### Konfiguracja
 
 1. 	Włączenie opcji deweloperskich w PowerBI portal
