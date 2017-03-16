@@ -5,12 +5,9 @@
 
 - [Szybki start](#Szybki-start)
 - [Instalacja](#Instalacja)
-    - [Instlacja CLI](#Instlacja-CLI)
+    - [Instalacja CLI](#Instalacja-CLI)
     - [Konfiguracja](#konfiguracja]
     
-
-   
-
 ## Szybki start
 
 Jest to kontrolka do PowerBi, która pokazuje raport z obłożenia zmian przez pracowników. 
@@ -41,21 +38,21 @@ pbiviz package
 Wszystkie potrzebne informację można znaleść na stronie https://github.com/microsoft/powerbi-visuals. 
 
 
-
-### Instlacja CLI
+### Instalacja CLI
 
 1. Instlacja Node.js
 2. Instlacja NPM
-3. Instlacja CLI - 
-
+3. Instlacja Powerbi-Visuals-Tool  
 ``` 
 npm install -g powerbi-visuals-tools 
 ```
-
 3.1.	Zainstalowanie certyfikatu SSL  
-
 ```
 pbiviz --install-cert
+```
+
+```
+Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien być w odpowiednim magazynie
 ```
 
 ### Konfiguracja
@@ -64,6 +61,6 @@ pbiviz --install-cert
  1.1.	 Koło zębate -> Ustawienia
  1.2.  Deweloper -> check włącz element wizualny
  
-### 
+
 
 
