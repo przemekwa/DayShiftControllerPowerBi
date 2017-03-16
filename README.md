@@ -51,7 +51,8 @@ Przy instalacji certyfikatu należy zwrócić uwagę, że certyfikat powinien by
 
 ### Konfiguracja
 
-* Włączenie opcji deweloperskich w PowerBI portal
+Włączenie opcji deweloperskich w PowerBI portal
+
 * Koło zębate -> Ustawienia
 * Deweloper -> check włącz element wizualny
  
