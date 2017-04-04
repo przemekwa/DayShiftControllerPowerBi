@@ -35,68 +35,84 @@ module powerbi.extensibility.visual.dayShiftController1CA75DB533334CF2965C7FA708
             this.updateCount = 0;
         }
 
+        public visualTransform(options: VisualUpdateOptions, host: IVisualHost) {
+
+
+          // console.log(options.dataViews);
+    
+
+
+}
+
         public update(options: VisualUpdateOptions) {
-            console.log('Visual update', options);
-            this.target.innerHTML = `<p>Przemek update count: <em>${(this.updateCount++)}</em></p>`;
-
-            this.target.innerHTML = `
-            <div class="month"> 
-   <ul>
-     <li class="prev">&#10094;</li>
-     <li class="next">&#10095;</li>
-     <li>
-       Sierpień<br>
-       <span style="font-size:18px">2017</span>
-     </li>
-   </ul>
- </div>
- 
- <ul class="weekdays">
-   <li>Poniedziałek</li>
-   <li>Wtorek</li>
-   <li>Środa</li>
-   <li>Czwartek</li>
-   <li>Piątek</li>
-   <li>Sobota</li>
-   <li>Niedziela</li>
- </ul>
- 
- <ul class="days"> 
-   <li><span>1</span></li>
-   <li>2</li>
-   <li>3</li>
-   <li>4</li>
-   <li>5</li>
-   <li>6</li>
-   <li>7</li>
-   <li>8</li>
-   <li>9</li>
-   <li><span class="active">10</span></li>
-   <li>12</li>
-   <li>13</li>
-    <li>14</li>
-     <li>15</li>
-      <li>16</li>
-       <li>17</li>
-        <li>18</li>
-         <li>19</li>
-          <li>20</li>
-           <li>21</li>
-            <li>22</li>
-             <li>23</li>
-              <li>24</li>
-               <li>25</li>
-                <li>26</li>
-                 <li>27</li>
-                  <li>28</li>
-                   <li>29</li>
-                    <li>30</li>
-                     <li>31</li>
-
- </ul>          
-             `
 
 
+for (let entry of options.dataViews[0].table.rows) {
+    console.log(entry); 
+}
+
+
+           
         }
     }
 }
+
+
+            // this.target.innerHTML = `<p>Przemek update count: <em>${(this.updateCount++)}</em></p>`;
+
+//             this.target.innerHTML = `
+//             <div class="month"> 
+//    <ul>
+//      <li class="prev">&#10094;</li>
+//      <li class="next">&#10095;</li>
+//      <li>
+//        Sierpień<br>
+//        <span style="font-size:18px">2017</span>
+//      </li>
+//    </ul>
+//  </div>
+ 
+//  <ul class="weekdays">
+//    <li>Poniedziałek</li>
+//    <li>Wtorek</li>
+//    <li>Środa</li>
+//    <li>Czwartek</li>
+//    <li>Piątek</li>
+//    <li>Sobota</li>
+//    <li>Niedziela</li>
+//  </ul>
+ 
+//  <ul class="days"> 
+//    <li><span>1</span></li>
+//    <li>2</li>
+//    <li>3</li>
+//    <li>4</li>
+//    <li>5</li>
+//    <li>6</li>
+//    <li>7</li>
+//    <li>8</li>
+//    <li>9</li>
+//    <li><span class="active">10</span></li>
+//    <li>12</li>
+//    <li>13</li>
+//     <li>14</li>
+//      <li>15</li>
+//       <li>16</li>
+//        <li>17</li>
+//         <li>18</li>
+//          <li>19</li>
+//           <li>20</li>
+//            <li>21</li>
+//             <li>22</li>
+//              <li>23</li>
+//               <li>24</li>
+//                <li>25</li>
+//                 <li>26</li>
+//                  <li>27</li>
+//                   <li>28</li>
+//                    <li>29</li>
+//                     <li>30</li>
+//                      <li>31</li>
+
+//  </ul>          
+             
